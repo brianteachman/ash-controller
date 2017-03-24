@@ -2,7 +2,7 @@
 
 ### What is this repository for? ###
 
-* Smart Home Capstone Project
+* Alexa VUI enabled smart home controller
 * Version 0.1
 * Built on [Alexa Skills Kit](https://developer.amazon.com/alexa-skills-kit), [Python](https://www.python.org/), [Flask](http://flask.readthedocs.io/en/latest/), [Flask-Ask](https://flask-ask.readthedocs.io/en/latest/index.html), [pagekite.py](https://pagekite.net/), [Raspberry Pi 3](https://www.raspberrypi.org/documentation/), [Amazon ECHO](https://www.amazon.com/All-New-Amazon-Echo-Dot-Add-Alexa-To-Any-Room) device.
 
