@@ -4,7 +4,7 @@ say_what: I'm sorry, what would you like to do?
 
 quit: OK, maybe later.
 
-room_not_found: {{ intent }} - Some room called {{ room }} was called.
+room_not_found: "{{ intent }}: Some room called {{ room }} was called."
 
 which_room: That's not a room I'm acquainted with, please make your request again
 
