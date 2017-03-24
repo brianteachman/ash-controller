@@ -11,17 +11,17 @@
 
 1. Load source code on device:
 	
-	`> git clone https://github.com/brianteachman/ash-controller.git asch`
+	`> git clone https://github.com/brianteachman/ash-controller.git ashc`
 
 2. Change into hc directory:
 
-	`> cd asch/home_controller`
+	`> cd ashc/home_controller`
 
 3. Run these scripts: (each in their own terminal)
 
 	`> wget https://pagekite.net/pk/pagekite.py`
 
-	Create a pagekite account and kite
+	Create a pagekite account and kite. replace 'your-kite-name' below with the kite you congfigured in your pagekite account when to start the app in the terminal.
 
 	`> python pagekite.py 5000 your-kite-name.pagekite.me`
 
@@ -31,7 +31,7 @@
 
 ### Current Utterances ###
 
-Niave Smart Home API behaviour:
+Niave Smart Home API calls:
 
 ```
 Turn the { room } room light { status }

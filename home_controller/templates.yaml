@@ -9,39 +9,39 @@ room_not_found: "{{ intent }}: Some room called {{ room }} was called."
 which_room: "That's not a room I'm acquainted with, please make your request again"
 
 sample_ask: |
-	<speak>
-		Some thing's you can say: 
-		Turn on the dining room lights.
-		Turn the main room lights off.
-		Set the main room light to 50 percent.
-		Set the lights to 100 percent in the dining room.
+<speak>
+	Some thing's you can say: 
+	Turn on the dining room lights.
+	Turn the main room lights off.
+	Set the main room light to 50 percent.
+	Set the lights to 100 percent in the dining room.
 
-		What's the temperature in the main room?
-		What is the temperature in the dining room?
-		What temperature is it in the dining room?
-		Tell me the temperature in the main room.
-	</speak>
+	What's the temperature in the main room?
+	What is the temperature in the dining room?
+	What temperature is it in the dining room?
+	Tell me the temperature in the main room.
+</speak>
 
 help_message: |
-	<speak>
-		Thing's you can say: 
+<speak>
+	Thing's you can say: 
 
-        Turn on the dining room lights.
-        Set the main room light to sixty percent.
+    Turn on the dining room lights.
+    Set the main room light to sixty percent.
 
-        Or,
+    Or,
 
-        What's the temperature in the dining room?
-        Tell me the main room temperature.
+    What's the temperature in the dining room?
+    Tell me the main room temperature.
 
-        Or,
+    Or,
 
-        Set the main room temperature to seventy-five degrees.
-        Set the heat in the dining room to 80.
-        Is the heat on in the dining room?
+    Set the main room temperature to seventy-five degrees.
+    Set the heat in the dining room to 80.
+    Is the heat on in the dining room?
 
-        Now, what would you like to do?
-	</speak>
+    Now, what would you like to do?
+</speak>
 
 light_status_response: "The light in the {{ room }} room is {{ status }}."
 
