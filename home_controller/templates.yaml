@@ -1,68 +1,67 @@
-welcome: "Welcome to the Home Controller. What would you like to do?"
+welcome: Welcome to the Home Controller. What would you like to do?
 
-say_what: "I'm sorry, what would you like to do?"
+say_what: I'm sorry, what would you like to do?
 
-quit: "OK, maybe later."
+quit: OK, maybe later.
 
-room_not_found: "{{ intent }}: Some room called {{ room }} was called."
+room_not_found: {{ intent }}: Some room called {{ room }} was called.
 
-which_room: "That's not a room I'm acquainted with, please make your request again"
+which_room: That's not a room I'm acquainted with, please make your request again
 
-sample_ask: """
-Some thing's you can say: 
-Turn on the dining room lights.
-Turn the main room lights off.
-Set the main room light to 50 percent.
-Set the lights to 100 percent in the dining room.
+sample_ask: |
+	Some thing's you can say: 
 
-What's the temperature in the main room?
-What is the temperature in the dining room?
-What temperature is it in the dining room?
-Tell me the temperature in the main room.
-"""
+	Turn on the dining room lights.
+	Turn the main room lights off.
+	Set the main room light to 50 percent.
+	Set the lights to 100 percent in the dining room.
 
-help_message: """
-Thing's you can say: 
+	What's the temperature in the main room?
+	What is the temperature in the dining room?
+	What temperature is it in the dining room?
+	Tell me the temperature in the main room.
 
-Turn on the dining room lights.
-Set the main room light to sixty percent.
+help_message: |
+	Thing's you can say: 
 
-Or,
+	Turn on the dining room lights.
+	Set the main room light to sixty percent.
 
-What's the temperature in the dining room?
-Tell me the main room temperature.
+	Or,
 
-Or,
+	What's the temperature in the dining room?
+	Tell me the main room temperature.
 
-Set the main room temperature to seventy-five degrees.
-Set the heat in the dining room to 80.
-Is the heat on in the dining room?
+	Or,
 
-Now, what would you like to do?
-"""
+	Set the main room temperature to seventy-five degrees.
+	Set the heat in the dining room to 80.
+	Is the heat on in the dining room?
 
-light_status_response: "The light in the {{ room }} room is {{ status }}."
+	Now, what would you like to do?
 
-light_level_response: "Setting {{ room }} room light to {{ percent }} percent."
+light_status_response: The light in the {{ room }} room is {{ status }}.
 
-light_level_card_response: "Light in the {{ room }} room is set to {{ percent }}."
+light_level_response: Setting {{ room }} room light to {{ percent }} percent.
 
-heat_status: "The heater in the {{ room }} room is {{ status }}."
+light_level_card_response: Light in the {{ room }} room is set to {{ percent }}.
 
-get_temp_response: "The temperature in the {{ room }} room is {{ temp }} degrees fahrenheit."
+heat_status: The heater in the {{ room }} room is {{ status }}.
 
-get_temp_error: "There was a problem getting the temperature from the {{ room }} room."
+get_temp_response: The temperature in the {{ room }} room is {{ temp }} degrees fahrenheit.
 
-get_setpoint_response: "The {{ room }} room temperature is set to {{ temp }} degrees fahrenheit."
+get_temp_error: There was a problem getting the temperature from the {{ room }} room.
 
-get_setpoint_error: "The set point is not set for the temperature in the {{ room }} room."
+get_setpoint_response: The {{ room }} room temperature is set to {{ temp }} degrees fahrenheit.
 
-set_temp_response: "The {{ room }} room temperature has been set to {{ temp }} degrees fahrenheit."
+get_setpoint_error: The set point is not set for the temperature in the {{ room }} room.
 
-set_temp_error: "There was a problem setting the {{ room }} room temperature."
+set_temp_response: The {{ room }} room temperature has been set to {{ temp }} degrees fahrenheit.
+
+set_temp_error: There was a problem setting the {{ room }} room temperature.
 
 heat_off_response: Turning heaters in all rooms off.
 
-heat_on_status: "The heater is currently running in both rooms."
+heat_on_status: The heater is currently running in both rooms.
 
-heat_in_room_status: "The heater in the {{ main }} room is {{ status }}."
+heat_in_room_status: The heater in the {{ main }} room is {{ status }}.
