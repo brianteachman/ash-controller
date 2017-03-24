@@ -11,15 +11,19 @@
 
 1. Load source code on device:
 	
-	`> git clone https://brianteachman@bitbucket.org/brianteachman/b3hc-home-controller.git hc`
+	`> git clone https://github.com/brianteachman/ash-controller.git asch`
 
 2. Change into hc directory:
 
-	`> cd hc`
+	`> cd asch/home_controller`
 
 3. Run these scripts: (each in their own terminal)
 
-	`> python pagekite.py 5000 b3hc.pagekite.me`
+	`> wget https://pagekite.net/pk/pagekite.py`
+
+	Create a pagekite account and kite
+
+	`> python pagekite.py 5000 your-kite-name.pagekite.me`
 
 	`> python home_controller.py`
 
