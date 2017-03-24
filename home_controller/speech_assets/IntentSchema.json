@@ -1,0 +1,90 @@
+{
+    "intents": [{
+
+        "intent": "AMAZON.HelpIntent"
+        
+    },{
+
+        "intent": "AMAZON.StopIntent"
+        
+    },{
+
+        "intent": "AMAZON.CancelIntent"
+        
+    }, {
+
+        "intent": "IsLightInRoomOnIntent",
+        "slots": [{
+            "name": "room",
+            "type": "ROOM_LIST"
+        }, {
+            "name": "status",
+            "type": "SYSTEM_STATE"
+        }]
+    }, {
+
+        "intent": "SwitchRoomLightIntent",
+        "slots": [{
+            "name": "room",
+            "type": "ROOM_LIST"
+        }, {
+            "name": "status",
+            "type": "SYSTEM_STATE"
+        }]
+    }, {
+
+        "intent": "SetRoomLightPercentIntent",
+        "slots": [{
+            "name": "room",
+            "type": "ROOM_LIST"
+        }, {
+            "name": "percent",
+            "type": "AMAZON.NUMBER"
+
+        }]
+
+    }, {
+
+        "intent": "GetRoomTemperatureIntent",
+        "slots": [{
+            "name": "room",
+            "type": "ROOM_LIST"
+        }]
+
+    }, {
+
+        "intent": "SetRoomTemperatureIntent",
+        "slots": [{
+            "name": "room",
+            "type": "ROOM_LIST"
+        }, {
+            "name": "temp",
+            "type": "AMAZON.NUMBER"
+
+        }]
+
+    }, {
+
+        "intent": "TurnOffAllHeatersIntent"
+    }, {
+
+        "intent": "WhatIsTempSetpointIntent",
+        "slots": [{
+            "name": "room",
+            "type": "ROOM_LIST"
+        }]
+
+    }, {
+
+        "intent": "IsHeatOnInRoomIntent",
+        "slots": [{
+            "name": "room",
+            "type": "ROOM_LIST"
+        }]
+
+    }, {
+
+        "intent": "AreAnyHeatersOnIntent"
+    }]
+
+}

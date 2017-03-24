@@ -1,0 +1,66 @@
+SwitchRoomLightIntent Turn the {room} room light {status}
+SwitchRoomLightIntent Turn the {room} room lights {status}
+SwitchRoomLightIntent Turn {status} the {room} room light
+SwitchRoomLightIntent Turn {status} the {room} room lights
+SwitchRoomLightIntent to turn the {room} room light {status}
+SwitchRoomLightIntent to turn {status} the {room} room light
+
+SetRoomLightPercentIntent Set the {room} room light to {percent} percent
+SetRoomLightPercentIntent Set the lights to {percent} percent in the {room} room
+SetRoomLightPercentIntent to set the {room} room light to {percent} percent
+SetRoomLightPercentIntent to set the lights to {percent} percent in the {room} room
+
+IsLightInRoomOnIntent What is the status of the light in the {room} room
+IsLightInRoomOnIntent What is the the {room} room light status
+
+GetRoomTemperatureIntent what's the temperature in the {room} room
+GetRoomTemperatureIntent what's the {room} room temperature
+GetRoomTemperatureIntent what is the temperature in the {room} room
+GetRoomTemperatureIntent what temperature is it in the {room} room
+GetRoomTemperatureIntent tell me the temperature in the {room} room
+GetRoomTemperatureIntent tell me the {room} room temperature
+
+SetRoomTemperatureIntent Set the temperature in the {room} room to {temp}
+SetRoomTemperatureIntent Set the temperature in the {room} room to {temp} degrees
+SetRoomTemperatureIntent Set the temperature of the {room} room to {temp}
+SetRoomTemperatureIntent Set the temperature of the {room} room to {temp} degrees
+SetRoomTemperatureIntent Set the temperature to {temp} in the {room} room
+SetRoomTemperatureIntent Set the temperature to {temp} degrees in the {room} room
+SetRoomTemperatureIntent Set the {room} room temperature to {temp}
+SetRoomTemperatureIntent Set the {room} room temperature to {temp} degrees
+SetRoomTemperatureIntent Set the heat in the {room} room to {temp}
+SetRoomTemperatureIntent Set the heat in the {room} room to {temp}
+SetRoomTemperatureIntent Set the heater in the {room} room to {temp} degrees
+SetRoomTemperatureIntent Set the heater in the {room} room to {temp} degrees
+
+IsHeatOnInRoomIntent Is the heater in the {room} room running
+IsHeatOnInRoomIntent Is the heat in the {room} room running
+IsHeatOnInRoomIntent Is the heat on in the {room} room
+IsHeatOnInRoomIntent Is the heater running in the {room} room
+IsHeatOnInRoomIntent Is the heat in the {room} room on
+IsHeatOnInRoomIntent Is the {room} room  heater on
+
+WhatIsTempSetpointIntent What is the temperature set to in the {room} room
+WhatIsTempSetpointIntent What is the {room} room temperature set to
+WhatIsTempSetpointIntent What is the temperature set point in the {room} room
+WhatIsTempSetpointIntent What is the temperature set point for the {room} room
+WhatIsTempSetpointIntent What the temperature in the {room} room is set to
+WhatIsTempSetpointIntent What the set point for the temperature in the {room} room is set to
+
+AreAnyHeatersOnIntent Tell me if any heaters are running
+AreAnyHeatersOnIntent Are any heaters running
+AreAnyHeatersOnIntent Are there any heaters running
+AreAnyHeatersOnIntent Are there heaters running in any rooms
+AreAnyHeatersOnIntent Are there heaters running in any of the rooms
+
+TurnOffAllHeatersIntent Turn off all heaters
+TurnOffAllHeatersIntent Turn all heaters off
+TurnOffAllHeatersIntent Turn off all the heaters
+TurnOffAllHeatersIntent Turn all the heaters off
+TurnOffAllHeatersIntent Turn off all room heaters
+TurnOffAllHeatersIntent Turn all room heaters off
+TurnOffAllHeatersIntent Turn off heaters in all rooms
+TurnOffAllHeatersIntent Turn heaters in all rooms off
+TurnOffAllHeatersIntent Turn off heaters in all the rooms
+TurnOffAllHeatersIntent Turn heaters in all the rooms off
+

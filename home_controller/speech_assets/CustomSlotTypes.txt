@@ -1,0 +1,2 @@
+DEVICE_STATUS - on|off
+ROOM_LIST - main|dining
